@@ -12,7 +12,7 @@ public class HeapManager {
 	}
 	public int parent(int i)
 	{
-		if(i==1||i==2)
+		if(i==0||i==1)
 		{
 			return 0;
 		}
